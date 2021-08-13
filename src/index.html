@@ -1,0 +1,33 @@
+<h1> Paint your World</h1>
+<p>
+Set Width <input type="text" onchange="setWidth(this.value)" />
+</p>
+
+<p>
+Set Height <input type="text" onchange="setHeight(this.value)" />
+</p>
+
+<p>
+ Background <input type = "color" value ="#FFFFFF" onchange = "background(this.value)"/>
+</p>
+  <p>
+<canvas id="canvas1" onmousedown="startPaint()"
+   onmousemove = "doPaint(event.offsetX, event.offsetY)"
+   onmouseup = "endPaint()" 
+   onclick = "erase(event.offsetX, event.offsetY)"> 
+  </canvas>
+<p> Brush Color  <input type = "color" value = "# 000" onchange = "changeColor(this.value)"/>
+  Brush/Eraser size
+<input type = "range" id = "sizeInput" min = "1" max = "50" value = "50" oninput = "resizeBrush(this.value)"/> <output id = "sizeOutput">50</output></p>
+</p>
+
+<p>
+  <input type = "button" value = "eraser" onclick = "changeColoreraser()"/>
+  <input type = "button" id = clear value = "clear canvas" onclick = "clearCanvas()"/>
+</p>
+
+
+
+
+
+

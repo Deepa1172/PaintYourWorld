@@ -1,0 +1,24 @@
+canvas {
+ 
+  border: 3px solid;
+  
+}
+
+h1{
+  text-align:center;
+  font-size:40px;
+  color:#000000;
+  text-decoration: underline;
+  text-shadow: 2px 1px 4px #ffa500;
+}
+
+body{
+  background-image:url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg);
+  background-size: cover;
+  position : centre;
+  max-width:500px;
+  font-family: sans-serif;
+  text-align:centre;
+  color:#000000;
+  margin:auto;
+}
